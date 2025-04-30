@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --cor-principal: white;
+    --cor-secundaria: gray;
+    --cor-do-botao: blue;
+    --cor-de-fundo: black;
+    --fonte-principal: 'Inter'
+}
+
+body{
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    margin: 8.18em;
+}
+
+.principal{
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%;
+}
+
+.conteiner__secao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 6em;
+    
+}
+
+.conteiner__botao{
+    background-color: var(--cor-do-botao);
+    border-radius: 8px;
+    padding: 12px;
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 1em;
+    width: 512px;
+}
+
+.conteiner__botao_secundario{
+    background-color: transparent;
+    border:2px, solid;
+    border-radius: 8px;
+    padding: 12px;
+    border-color: var(--cor-secundaria);
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+    margin: 1em; 
+    width: 512px;
+}
+
+.conteiner__titulo{
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.conteiner__imagem{
+    margin: 2em;
+}
+
+.conteiner__paragrafo{
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.conteiner__Plataformas{
+    display: flex;
+    align-items: center;
+    margin: 6em 0 0 0;
+    padding: 2em;
+}
+
+.conteiner__Plataformas_imagem{
+    padding: 1em;
+}
+
+.conteiner__Plataformas_secao{
+    align-items: center;
+    
+}
+
+.conteiner__Plataformas_titulo{
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-principal);
+    
+}
+
+.conteiner__Plataformas_paragrafo{
+    font-family: var(--fonte-principal);
+    color: var(--cor-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.conteiner__Telas{
+    margin: 6em 0 0 0 14em;
+    padding: 23.3em 2.8em 20.6em 2.8em;
+    display: flex;
+    align-items: center;
+    /* margin: 6em;
+    padding: 2em; */
+}
+
+.telas_paragrafo{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-principal);
+    padding: 1em;
+    margin: 0 0 1em 0;
+}
+
+.botao_telas{
+    background-color: var(--cor-do-botao);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--cor-principal);
+    padding: 1em;
+    margin: 1em;
+}
+
+.conteiner__Notebook{
+    margin: 6em 0 0 0 14em;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.notebook__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--cor-principal);
+}
+
+.notebook__paragrafo{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-principal);
+}
+
+.dispositivos{
+    text-align: center;
+    margin: 16.5em 0;
+}
+
+.dispositivos_titulo{
+    align-items: center;
+    font-size: 48px;
+    margin: 1em 0;
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.rodape{
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.rodape_logo{
+    margin: 5em;
+}
+
+.rodape_lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+.dispositivos_paragrafo{
+    font-size: 14px;
+    color: var(--cor-secundaria);
+    margin: 3em;
+}
+
+.conteiner__secao a:hover{
+    background-color:red ;
+    color: black;
+    border-color: transparent;
+}
+
+.conteiner__telas__secao  a:hover{
+    background-color: red;
+    color: black;
+}
+
+.lista_link a{
+    text-decoration: none;
+    color: var(--cor-principal);
+}
+
+.lista_link a:hover{
+    color: var(--cor-do-botao);
+}
